@@ -1,10 +1,10 @@
 # PiBot
-Webserver written in Python with Cherrypy3 to drive raspberry pi tank with a pan-tilt camera
+Webserver written in Python with Cherrypy3 to drive raspberry pi pan tilt camera
 ## Installation
 - clone this repo and also install:
 - WiringPi
 - sudo apt-get install -y python-cherrypy3 git uv4l uv4l-raspicam uv4l-raspicam-extras uv4l-server
-- Change pins on pantilt and also on wheels.
+- Change pins on pantilt.
 - start uv4l-raspicam
 - Change camera url.
 - Change tutorial.conf file to suit youre needs
@@ -13,7 +13,7 @@ Webserver written in Python with Cherrypy3 to drive raspberry pi tank with a pan
 - start servod
 - python remote_control.py
 - Browse to <raspberrypi:8090>
-- Use arrows to move the tank and wasd to move the camera
+- Use wasd to move the camera
 
 ## Contributing
 1. Fork it!
